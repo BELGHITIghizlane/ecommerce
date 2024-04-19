@@ -23,3 +23,7 @@ Route::post('/pro',[Ecommercecontroller::class , 'store'])->name('pro.store');
 Route::delete('/delete/{id}',[Ecommercecontroller::class , 'destroy'])->name('product.destroy');
 Route::get('/edit/{id}',[Ecommercecontroller::class , 'edit'])->name('product.edit');
 Route::put('/update/{id}',[Ecommercecontroller::class , 'update'])->name('product.update');
+
+
+
+

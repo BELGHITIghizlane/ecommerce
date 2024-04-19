@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product;
 
+
 class Ecommercecontroller extends Controller
 {
     /**
@@ -131,4 +132,8 @@ class Ecommercecontroller extends Controller
         $product->delete();
         return redirect()->route("pro.index");
     }
+
+   
+
+
 }
